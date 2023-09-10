@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array</h1>
+    <script>
+
+    var arr=["Gafar","Papu","Bambati","Patado","Crytali","Sada12"]
+    document.write(arr,"<br>")
+    document.write("<ul>")
+    for(var a=0; a<=4; a++){
+document.write("<li>",arr[a],"</li>")
+    }
+    document.write("</ul>")
+
+var sum=0;
+var marks=new Array(5);
+for(var i=0; i<marks.length;i++){
+
+marks[i]=parseInt(prompt("ENTER MARKS"))
+sum=sum+marks[i];    
+}
+       
+alert("Total Number is:"+sum)
+alert("Average is:"+(sum/marks.length) )
+
+
+
+    </script>
+</body>
+
+</html>
